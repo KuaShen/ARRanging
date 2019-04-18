@@ -1,0 +1,22 @@
+{
+  "name": "ARRanging",
+  "version": "0.1.0",
+  "summary": "A short description of ARRanging.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KuaShen/ARRanging",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KuaShen": "shengjf154062261@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/KuaShen/ARRanging.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ARRanging/Classes/**/*"
+}

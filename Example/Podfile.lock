@@ -1,0 +1,16 @@
+PODS:
+  - ARRanging (0.1.0)
+
+DEPENDENCIES:
+  - ARRanging (from `../`)
+
+EXTERNAL SOURCES:
+  ARRanging:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ARRanging: 3caa8cca9bffc78d1b22c90a9f4e79bcb0b963d1
+
+PODFILE CHECKSUM: 2390c263ead108ed7c273d9a6ee1a4e037fafdd7
+
+COCOAPODS: 1.6.1

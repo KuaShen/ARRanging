@@ -1,0 +1,6 @@
+framework module ARRanging {
+  umbrella header "ARRanging-umbrella.h"
+
+  export *
+  module * { export * }
+}

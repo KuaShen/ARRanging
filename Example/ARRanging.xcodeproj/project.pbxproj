@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04195DE12265E5AB004113C3 /* RASCNVector3Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04195DE02265E5AB004113C3 /* RASCNVector3Tool.m */; };
+		04195DE3226738F4004113C3 /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04195DE2226738F4004113C3 /* ARKit.framework */; };
+		04195DE9226739BD004113C3 /* RASCNViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 04195DE8226739BD004113C3 /* RASCNViewExtension.m */; };
+		0497AA68224E022A00F6BEB0 /* RALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 0497AA67224E022A00F6BEB0 /* RALine.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +42,14 @@
 
 /* Begin PBXFileReference section */
 		03748D9C82A49B4993B16ECE /* Pods-ARRanging_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRanging_Tests.release.xcconfig"; path = "Target Support Files/Pods-ARRanging_Tests/Pods-ARRanging_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0BADBA7E64C22BDECAADF8C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		04195DDF2265E5AB004113C3 /* RASCNVector3Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RASCNVector3Tool.h; sourceTree = "<group>"; };
+		04195DE02265E5AB004113C3 /* RASCNVector3Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RASCNVector3Tool.m; sourceTree = "<group>"; };
+		04195DE2226738F4004113C3 /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		04195DE7226739BD004113C3 /* RASCNViewExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RASCNViewExtension.h; sourceTree = "<group>"; };
+		04195DE8226739BD004113C3 /* RASCNViewExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RASCNViewExtension.m; sourceTree = "<group>"; };
+		0497AA66224E022A00F6BEB0 /* RALine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RALine.h; sourceTree = "<group>"; };
+		0497AA67224E022A00F6BEB0 /* RALine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RALine.m; sourceTree = "<group>"; };
+		0BADBA7E64C22BDECAADF8C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1DEA2BA057A5B8DEB1BBEC0C /* Pods-ARRanging_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRanging_Example.release.xcconfig"; path = "Target Support Files/Pods-ARRanging_Example/Pods-ARRanging_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ARRanging_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARRanging_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,10 +72,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		69A4A3000361416256FB429C /* Pods_ARRanging_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARRanging_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86B77CD1500C4607F12BF5AF /* ARRanging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ARRanging.podspec; path = ../ARRanging.podspec; sourceTree = "<group>"; };
+		86B77CD1500C4607F12BF5AF /* ARRanging.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ARRanging.podspec; path = ../ARRanging.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E851D605887A14EB675351F /* Pods_ARRanging_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARRanging_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCA3B9DB144B1D1F205426B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BCA3B9DB144B1D1F205426B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DB184DEEFD86A843C11DDC63 /* Pods-ARRanging_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRanging_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ARRanging_Tests/Pods-ARRanging_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F4CDC34E8CC364AEA13EA606 /* Pods-ARRanging_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARRanging_Example.debug.xcconfig"; path = "Target Support Files/Pods-ARRanging_Example/Pods-ARRanging_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04195DE3226738F4004113C3 /* ARKit.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -103,7 +115,6 @@
 				DB184DEEFD86A843C11DDC63 /* Pods-ARRanging_Tests.debug.xcconfig */,
 				03748D9C82A49B4993B16ECE /* Pods-ARRanging_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,6 +142,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04195DE2226738F4004113C3 /* ARKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -149,6 +161,12 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RAViewController.h */,
 				6003F5A6195388D20070C39A /* RAViewController.m */,
+				04195DE7226739BD004113C3 /* RASCNViewExtension.h */,
+				04195DE8226739BD004113C3 /* RASCNViewExtension.m */,
+				0497AA66224E022A00F6BEB0 /* RALine.h */,
+				0497AA67224E022A00F6BEB0 /* RALine.m */,
+				04195DDF2265E5AB004113C3 /* RASCNVector3Tool.h */,
+				04195DE02265E5AB004113C3 /* RASCNVector3Tool.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -248,6 +266,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = KuaShen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L55H5YD94T;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -368,8 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04195DE9226739BD004113C3 /* RASCNViewExtension.m in Sources */,
 				6003F59E195388D20070C39A /* RAAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RAViewController.m in Sources */,
+				0497AA68224E022A00F6BEB0 /* RALine.m in Sources */,
+				04195DE12265E5AB004113C3 /* RASCNVector3Tool.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,11 +522,12 @@
 			baseConfigurationReference = F4CDC34E8CC364AEA13EA606 /* Pods-ARRanging_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARRanging/ARRanging-Prefix.pch";
 				INFOPLIST_FILE = "ARRanging/ARRanging-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -513,11 +538,12 @@
 			baseConfigurationReference = 1DEA2BA057A5B8DEB1BBEC0C /* Pods-ARRanging_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L55H5YD94T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARRanging/ARRanging-Prefix.pch";
 				INFOPLIST_FILE = "ARRanging/ARRanging-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lab603.self.jeff.Auto-Correction";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
